@@ -10,8 +10,8 @@ apt-get update
 apt-get install docker-ce
 
 # Install Go
-wget https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz
-tar xvf go1.8.1.linux-amd64.tar.gz
+wget https://redirector.gvt1.com/edgedl/go/go1.9.2.linux-amd64.tar.gz
+tar xvf go1.9.2.linux-amd64.tar.gz
 chown -R root:root ./go
 sudo mv go /usr/local
 echo "export GOPATH=$HOME/work" >> ~/.profile
